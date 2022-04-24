@@ -71,6 +71,10 @@ function newColor () {
             //cell.style.border = '1px solid #ff0054';
         }
     });
+    blueBtn.style.backgroundColor = "#F2F2F2";
+    blueBtn.style.color = "black";
+    rgbBtn.style.backgroundColor = "black";
+    rgbBtn.style.color = "white";
 }
 newColor();
 
@@ -111,5 +115,9 @@ function cellColorRandom () {
             //cell.style.border = '1px solid #ff0054';
         }
     });
+    rgbBtn.style.backgroundColor = "#F2F2F2";
+    rgbBtn.style.color = "black";
+    blueBtn.style.backgroundColor = "black";
+    blueBtn.style.color = "white";
 }
 //cellColorRandom();
